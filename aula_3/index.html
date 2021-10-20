@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial -aula3 - flex-wrap</title>
+    <style>
+
+        body {
+            font-family: arial;
+            color: #000;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid #000;
+        }
+
+        .flexivel {
+            display: flex;
+        }
+
+        .vertical {
+            flex-direction: row;
+        }
+
+        .quebra {
+            flex-wrap: wrap;
+        }
+
+        .item {
+            margin: 5px;
+            padding: 5px;
+            background: #447;
+            text-align: center;
+            font-size: 1em;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container flexivel vertical quebra">
+        <div class="item">CFB Curso 1</div>
+        <div class="item">CFB Curso 2</div>
+        <div class="item">CFB Curso 3</div>
+        <div class="item">CFB Curso 4</div>
+        <div class="item">CFB Curso 5</div>
+        <div class="item">CFB Curso 6</div>
+        <div class="item">CFB Curso 7</div>
+        <div class="item">CFB Curso 8</div>
+        <div class="item">CFB Curso 9</div>
+        <div class="item">CFB Curso 10</div>
+    </div>
+</body>
+</html>
